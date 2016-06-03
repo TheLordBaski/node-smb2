@@ -1,23 +1,23 @@
 {
-  "name": "@marsaud/smb2",
-  "description": "SMB2 Client",
+  "name": "samba2",
+  "description": "Samba2 Client for nodejs version 4.4",
   "homepage": "https://github.com/marsaud/node-smb2",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "engines": [
     "node"
   ],
   "author": {
-    "name": "Benjamin Chelli",
-    "email": "benjamin@chelli.net",
-    "url": "https://github.com/bchelli"
+    "name": "Jakub Gabčo and Benjamin Chelli",
+    "url": "https://github.com/thelordbaski"
   },
   "contributors": [
+     "Jakub Gabčo (https://github.com/thelordbaski)"
     "Fabrice Marsaud <fabrice.marsaud@vates.fr> (https://github.com/marsaud)"
   ],
   "main": "lib/smb2.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marsaud/node-smb2"
+    "url": "https://github.com/TheLordBaski/node-smb2"
   },
   "dependencies": {
     "ntlm": "~0.1.1"
