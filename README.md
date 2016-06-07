@@ -11,7 +11,7 @@ The development is still at an experimental stage and should not be yet consider
 ## Installation
 
 ```bash
-npm install -S smb2
+npm install -S samba2
 ```
 
 ## API
@@ -32,7 +32,7 @@ the parameter ```options``` accepts this list of attributes:
 Example:
 ```javascript
 // load the library
-var SMB2 = require('smb2');
+var SMB2 = require('samba2');
 
 // create an SMB2 instance
 var smb2Client = new SMB2({
